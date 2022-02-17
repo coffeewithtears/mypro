@@ -46,7 +46,19 @@
 <div class="container">
 
 
-  <h1 align="center">Welcome to our group - CS2124!</h1>
+  <script>
+    function background() {
+      var x = h1.getElementById("myBackground");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+
+  <p><h1 align="center">Welcome to our group - CS2124!</h1></p>
+  <button onclick="background()" class="buttons b1" id="Background"> clear </button>
   <h2 align="center">&Tab;In this website you can see short information about us</h2>
   <hr>
   <p align="center">I love deadlines.<br>
@@ -55,8 +67,6 @@
     <p align="center"><em>-Douglas Adams</em></p>
   </strong>
 </div>
-
-
 
 
   <table border="1">
